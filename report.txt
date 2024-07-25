@@ -1,0 +1,18 @@
+
+  State Counts: {
+  "IN_PROCESS": 7,
+  "PENDING": 22,
+  "CLOSED": 1
+}
+  Channel Counts: {
+  "Mobile": 6,
+  "BREEZE": 19,
+  "Web": 5
+}
+  Category Counts: {
+  "STOP_A_PAYMENT": 5,
+  "PRODUCT_APPLICATION": 19,
+  "SECURED_FORMS": 4,
+  "PROFILE_UPDATE": 2
+}
+  
