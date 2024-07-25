@@ -1,8 +1,8 @@
-const User = require('./testProject/actors/user');
-const SignIn = require('./testProject/tasks/signIn');
-const GetTickets = require('./testProject/tasks/getTickets');
-const ProcessTickets = require('./testProject/questions/processTickets');
-const report = require('./testProject/utils/report');
+const User = require('./src/actors/user');
+const SignIn = require('./src/tasks/signIn');
+const GetTickets = require('./src/tasks/getTickets');
+const ProcessTickets = require('./src/questions/processTickets');
+const report = require('./src/utils/report');
 
 const user = new User('Tester');
 
