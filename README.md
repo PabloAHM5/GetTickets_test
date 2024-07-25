@@ -1,31 +1,32 @@
 # GetTickets Project
 
-Este proyecto está diseñado para consumir servicios GraphQL utilizando Axios en Node.js. Implementa el patrón de diseño Screenplay y sigue las tareas especificadas para consumir, procesar y reportar resultados de los tickets.
+This project is designed to consume GraphQL services using Axios in Node.js. It implements the Screenplay design pattern and follows the specified tasks to consume, process and report ticket results.
 
-## Requisitos
+## Requirements
 
 - Node.js (v14 o superior)
 - npm (v6 o superior)
 
-## Instalación
+## Installation
 
-1. Clona este repositorio:
+1. Clone this repository:
 
 git clone https://github.com/PabloAHM5/GetTickets_test
 
-2. Clona este repositorio:
+2. Install the dependencies:
+3. 
 npm install
 
-## Estructura del Proyecto
-#### index.js: Punto de entrada principal del proyecto. Orquesta el flujo principal del programa.
-#### actors/user.js: Define el actor que realizará las tareas.
-#### tasks/signIn.js: Realiza la tarea de autenticación y obtiene el token.
-#### tasks/getTickets.js: Realiza la tarea de obtener los tickets utilizando el token obtenido.
-#### questions/processTickets.js: Procesa y filtra la respuesta de los tickets.
-#### utils/report.js: Genera el reporte de los resultados.
+## Project Structure
+#### index.js: Main entry point of the project. It orchestrates the main flow of the program.
+#### actors/user.js: Defines the actor that will perform the tasks.
+#### tasks/signIn.js: Performs the authentication task and obtains the token.
+#### tasks/getTickets.js: Performs the task of obtaining the tickets using the obtained token.
+#### questions/processTickets.js: Processes and filters the ticket response.
+#### utils/report.js: Generates the report of the results.
 
-## Uso
-Para ejecutar el proyecto, simplemente corre:
+## Usage
+To run the project, simply run:
 
 node index.js
 
